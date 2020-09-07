@@ -11,7 +11,7 @@ for z in range (1,5,1):
             print("2. Decrypt")
             c=input("Enter Option Number: ")
             print()
-            if (c=="1" or c=="1." or c!="ENCRYPTER"):
+            if (c=="1" or c=="1." or c=="ENCRYPTER"):
                 str=input("Enter the text to be Encrypted: ").lower()
                 print()
                 for i in str:
@@ -145,7 +145,7 @@ for z in range (1,5,1):
                         print("`",end="")
                     else:
                         print("Invalid Character")
-            elif (c=="2" or c=="2." or c!="DECRYPTER"):
+            elif (c=="2" or c=="2." or c=="DECRYPTER"):
                 str=input("Enter the text to be Decrypted: ")
                 print()
                 for g in str:
